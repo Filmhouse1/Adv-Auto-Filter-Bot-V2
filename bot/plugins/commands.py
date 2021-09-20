@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"<code>{file_name}</code>\n \n🔊Group:https://t.me/joinchat/QdhQir0It3s3ZmJl\n \n🔊ᴍᴏᴠɪᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ: @kl_films @FilmHouse_2\n \n🔊ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ:https://youtube.com/c/THCV20\n \n🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'FILMHOUSE_Kerala', url="https://t.me/joinchat/QdhQir0It3s3ZmJl"
                                 )
                         ]
                     ]
@@ -47,19 +47,23 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('⚜️ My Developer ⚜️', url='https://t.me/DS_KUNJAVA'),
+        InlineKeyboardButton('🔰 ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ 🔰', url ='https://t.me/movie_house2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('FILM🎬HOUSE', url='https://t.me/joinchat/QdhQir0It3s3ZmJl'),
+        InlineKeyboardButton('FILM🎬HOUSE_2', url='https://t.me/FilmHouse_2')
+    ],[
+        InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await bot.send_message(
+    await bot.send_photo(
         chat_id=update.chat.id,
-        text=Translation.START_TEXT.format(
+        photo="https://telegra.ph/file/3c3b7b1503c27785643be.jpg",
+        caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
         parse_mode="html",
