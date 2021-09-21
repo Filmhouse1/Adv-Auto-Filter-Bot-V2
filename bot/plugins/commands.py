@@ -55,6 +55,8 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films')
     ],[
+        InlineKeyboardButton('💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢', url='https://youtube.com/c/THCV20')
+    ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
