@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("Nice Try ;)",show_alert=True)
+        await update.answer("വേറെ ആൾകാർ ചോദിച്ച മൂവി നെസ്റ്റ് അടിക്കാൻ പറ്റില്ല 😋;)",show_alert=True)
         return
 
 
@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request ⚡️:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1600,15 +1600,15 @@ async def cb_about(bot, update: CallbackQuery):
 
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
-    text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/CrazyBotszGrp">@CrazyBotszGrp</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/CrazyBotsz/Adv-Filter-Bot-V2">Source</a>"""
+    text+=f"\n<b><i>Bot Funtion:</i></b> <b>Auto File Filter Bot 😋</b>\n"
+    text+=f"""\n<b><i>Bot Support:</i></b> <b><a href="https://t.me/movie_house2">🔰ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ🔰</a></b>\n"""
+    text+="""\n<b><i>Source Code:</i></b> 🔐"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/AlbertEinstein_TG"
+                    "My Dev ⚡", url="https://t.me/DS_KUNJAVA"
                 ),
                 
             InlineKeyboardButton
@@ -1639,11 +1639,16 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Filter-Bot-V2')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/DS_KUNJAVA'),
+            InlineKeyboardButton('🔰 ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ 🔰', url ='https://t.me/movie_house2')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('FILM🎬HOUSE', url='https://t.me/joinchat/QdhQir0It3s3ZmJl')
+            InlineKeyboardButton('FILM🎬HOUSE_2', url='https://t.me/DS_KUNJAVA')
         ],[
+            InlineKeyboardButton('KL_FILMS', url='https://t.me/FilmHouse_2')
+        ],[
+            InlineKeyboardButton('💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢', url='https://youtube.com/c/THCV20')
+
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
     
