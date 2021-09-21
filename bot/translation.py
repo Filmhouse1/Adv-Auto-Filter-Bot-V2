@@ -8,11 +8,11 @@ class Translation(object):
 
 ഞാൻ <b><a href="https://t.me/joinchat/QdhQir0It3s3ZmJl">FILM🎬HOUSE</a></b> എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ്
 
-🔊Group: https://t.me/joinchat/QdhQir0It3s3ZmJl
+🔊Group: <b><a href="https://t.me/joinchat/QdhQir0It3s3ZmJl">FILM🎬HOUSE</a></b>
 
-🔊ᴍᴏᴠɪᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ: @kl_films @FilmHouse_2
+🔊ᴍᴏᴠɪᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ: <b><a href="https://t.me/kl_films">KL_FILMS</a></b> | <b><a href="https://t.me/FilmHouse_2">Film🎬House_2</a></b>
 
-🔊ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ: https://youtube.com/c/THCV20
+🔊ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ: <b><a href="https://youtube.com/c/THCV20">💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢</a></b>
 
 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAVA࿐</a></b>
 """    
