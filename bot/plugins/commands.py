@@ -53,18 +53,17 @@ async def start(bot, update):
         InlineKeyboardButton('FILM🎬HOUSE', url='https://t.me/joinchat/QdhQir0It3s3ZmJl'),
         InlineKeyboardButton('FILM🎬HOUSE_2', url='https://t.me/FilmHouse_2')
     ],[
-        InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films')
+        InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films'),
+        InlineKeyboardButton('Kerala University News', url='https://t.me/All_Kerala_University')  
     ],[
-        InlineKeyboardButton('💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢', url='https://youtube.com/c/THCV20')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢', url='https://youtube.com/c/THCV20')        
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://telegra.ph/file/7cd21da0c21352cd30de9.jpg",
+        photo="https://telegra.ph/file/fad937b0c0ef864d06d2e.jpg",
         caption=Translation.START_TEXT.format(
                 update.from_user.first_name),
         reply_markup=reply_markup,
