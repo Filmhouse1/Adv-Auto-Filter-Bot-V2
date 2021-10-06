@@ -14,7 +14,7 @@ class Translation(object):
 
 🔊ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ: <b><a href="https://youtube.com/c/THCV20">💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢</a></b>
 
-Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAVA࿐</a></b>
+Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ <b><a href="https://t.me/DS_KUNJAVA">ᴰˢ᭄KUNJAVA࿐</a></b> | <b><a href="https://t.me/movie_house2">🔰ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ🔰</a></b>
 """    
     
     HELP_TEXT = """
