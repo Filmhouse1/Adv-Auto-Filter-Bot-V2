@@ -48,12 +48,11 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('⚜️ My Developer ⚜️', url='https://t.me/DS_KUNJAVA'),
-        InlineKeyboardButton('🔰 ᴍᴏᴠɪᴇ ʜᴏᴜꜱᴇ 🔰', url ='https://t.me/movie_house2')
+        InlineKeyboardButton('FILM🎬HOUSE', url='https://t.me/joinchat/QdhQir0It3s3ZmJl')
     ],[
-        InlineKeyboardButton('FILM🎬HOUSE', url='https://t.me/joinchat/QdhQir0It3s3ZmJl'),
-        InlineKeyboardButton('FILM🎬HOUSE_2', url='https://t.me/FilmHouse_2')
+        InlineKeyboardButton('FILM🎬HOUSE_2', url='https://t.me/FilmHouse_2'),
+        InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films')
     ],[
-        InlineKeyboardButton('KL_FILMS', url='https://t.me/kl_films'),
         InlineKeyboardButton('Kerala University News', url='https://t.me/All_Kerala_University')  
     ],[
         InlineKeyboardButton('💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢', url='https://youtube.com/c/THCV20')        
